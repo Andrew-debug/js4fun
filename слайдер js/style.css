@@ -1,0 +1,24 @@
+#slider {
+    width: 384px;
+    height: 128px;
+    border: 5px solid #000;
+    margin: 50px auto;
+    overflow: hidden;
+}
+#strip {
+    position: relative;
+    background: #ff0;
+    width: 512px;
+    left: 0;
+    transition: all ease 1s;
+
+}
+#strip:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#strip img {
+    float: left;
+}
